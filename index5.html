@@ -5,6 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./style.css" rel="stylesheet" type="text/css">
+    <style>
+        table{
+            width: 55vw;
+            border-spacing: 5px;
+        }
+        td {
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 200px;
+            border: solid blue 2px;
+            background-size: 100% 100%;
+            border-radius: 5px;
+            position: relative;
+            width: 25%;
+            padding: 0;
+        }
+
+        td:hover {
+            border-radius: 20px;
+        }
+
+        .z1 { background-image: url(./slike/1.png);}
+        .z2 { background-image: url(./slike/2.png);}
+        .z3 { background-image: url(./slike/3.png);}
+        .z4 { background-image: url(./slike/4.png);}
+        .z5 { background-image: url(./slike/5.png);}
+        .z6 { background-image: url(./slike/6.jpeg);}
+        .z7 { background-image: url(./slike/7.jpeg);}
+        .z8 { background-image: url(./slike/8.jpeg);}
+
+        td a {
+            position: absolute;
+            display: block;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 100%!important;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Web Design HTML/CSS</h1>
@@ -20,6 +60,22 @@
         <a href="https://matfuvit.github.io/info/vezbe/knjiga/Poglavlja/HTML/" target="_blank">Materijali za HTML</a>
         <a href="https://matfuvit.github.io/info/vezbe/knjiga/Poglavlja/CSS/" target="_blank">Materijali za CSS</a>
         
+        <h2>Zadaci za vežbu</h2>
+        <table>
+            <tr>
+                <td class="z1"><a href="./1.zip">zadaci</a></td>
+                <td class="z2"><a href="./2.zip">zadaci</a></td>
+                <td class="z3"><a href="./3.zip">zadaci</a></td>
+                <td class="z4"><a href="./4.zip">zadaci</a></td>
+            </tr>
+
+            <tr>
+                <td class="z5"><a href="./5.zip">zadaci</a></td>
+                <td class="z6"><a href="./6.zip">zadaci</a></td>
+                <td class="z7"><a href="./7.zip">zadaci</a></td>
+                <td class="z8"><a href="./8.zip">zadaci</a></td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
